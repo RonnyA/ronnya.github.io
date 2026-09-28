@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found</title>
+<script>
+  // The ND-120 project site moved to retrocorelabs.github.io/nd-120/.
+  // Send any old /nd-120/... link to the same path on the new host.
+  (function () {
+    var p = window.location.pathname;
+    if (p === "/nd-120" || p.indexOf("/nd-120/") === 0) {
+      window.location.replace("https://retrocorelabs.github.io" + p + window.location.search + window.location.hash);
+    }
+  })();
+</script>
+</head>
+<body>
+<h1>Page not found</h1>
+<p>Looking for the ND-120 project? It moved to
+<a href="https://retrocorelabs.github.io/nd-120/">retrocorelabs.github.io/nd-120</a>.</p>
+</body>
+</html>
